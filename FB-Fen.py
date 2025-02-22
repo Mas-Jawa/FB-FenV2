@@ -202,13 +202,6 @@ for t in range(1000):
         'Redmi Note 3', 'Redmi Note 3 pro', 'Redmi Note 2', 'Redmi Note 2 pro', 'Redmi Note 1', 'Redmi Note 1 pro', 'Redmi Note 1 ultra',
         'Redmi Note 1 lite', 'Redmi Note 1 max', 'Redmi Note 1 mini', 'Redmi Note 1 pro max', 'Redmi Note 1 pro mini', 'Redmi Note 1 pro ultra'
     ])
- fanky = f"Dalvik/2.1.0 (Linux; U; Android {rr(1, 14)}; {redmi}) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/{rr(10, 14)}.{rr(1, 10)} Chrome/{rr(30, 270)}.0.{rr(15, 7000)}.{rr(20, 275)} Mobile Safari/537.36"
-    d = f"Dalvik/2.1.0 (Linux; U; Android {andro}; V2043_21 Build/RP1A.200720.012) [FBAN/MessengerLite;FBAV/{rr(100,467)}.0.0.5.119;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/{rr(100000000,9000000000)};FBCR/Warid;FBMF/vivo;FBBD/vivo;FBDV/V2043_21;FBSV/{andro};FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{{density=2.25,height=,width=}};]"
-    a = f"Dalvik/2.1.0 (Linux; U; Android {andro}; moto g52 Build/S1SRS32.38-132-8) [FBAN/MessengerLite;FBAV/{rr(100,467)}.0.0.7.131;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/543901789;FBCR/;FBMF/motorola;FBBD/motorola;FBDV/moto g52;FBSV/{andro};FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{{density=2.25,height=1024,width=2048}};]"
-    n = f"Dalvik/2.1.0 (Linux; U; Android {andro}; SM-J330FN Build/PPR1.180610.011) [FBAN/MessengerLite;FBAV/{rr(100,467)}.0.0.3.109;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/{rr(100000000,9000000000)};FBCR/Grameenphone;FBMF/samsung;FBBD/samsung;FBDV/SM-J330FN;FBSV/{andro};FBCA/armeabi-v7a:armeabi;FBDM/{{density=2.25,height=,width=}};]"
-    siska = f"Dalvik/2.1.0 (Linux; U; Android {andro}; vivo V3Max Build/LMY47V) [FBAN/Orca-Android;FBAV/{rr(100,467)}.0.0.16.158;FBPN/com.facebook.orca;FBLC/en_US;FBBV/{rr(100000000,9000000000)};FBCR/null;FBMF/vivo;FBBD/vivo;FBDV/vivo V3Max;FBSV/{andro};FBCA/armeabi-v7a:armeabi;FBDM/{{density=3.0,width=1080,height=1920}};]"
-    ua = random.choice([fanky])
-    ugen.append(ua)
 
 except :
 	ugent = "Mozilla/5.0 (Linux; Android 10; SM-N971U Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36"
