@@ -184,28 +184,10 @@ try:
     for fn in uasayang:
         ugen.append(fn)
 
-# USER AGENT REDMI NOTE 9
-except:
-    ugen.append("Mozilla/5.0 (Linux; Android 10; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36")
-    ugen.append("Mozilla/5.0 (Linux; Android 10; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36")
-    ugen.append("Mozilla/5.0 (Linux; Android 10; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36")
-    ugen.append("Mozilla/5.0 (Linux; Android 10; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36")
-    ugent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
-
-for t in range(1000):
-    rc = random.choice
-    rr = random.randint
-    andro = f"{rr(4,13)}"
-    redmi = rc([
-        'Redmi Note 9', 'Redmi Note 9 pro', 'Redmi Note 10', 'Redmi Note 10 pro', 'Redmi Note 8', 'Redmi Note 8 pro', 'Redmi Note 7',
-        'Redmi Note 7 pro', 'Redmi Note 6', 'Redmi Note 6 pro', 'Redmi Note 5', 'Redmi Note 5 pro', 'Redmi Note 4', 'Redmi Note 4 pro',
-        'Redmi Note 3', 'Redmi Note 3 pro', 'Redmi Note 2', 'Redmi Note 2 pro', 'Redmi Note 1', 'Redmi Note 1 pro', 'Redmi Note 1 ultra',
-        'Redmi Note 1 lite', 'Redmi Note 1 max', 'Redmi Note 1 mini', 'Redmi Note 1 pro max', 'Redmi Note 1 pro mini', 'Redmi Note 1 pro ultra'
-    ])
-
 except :
 	ugent = "Mozilla/5.0 (Linux; Android 10; SM-N971U Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Mobile Safari/537.36"
 
+    
 for t in range(1000):
     rc = random.choice
     rr = random.randint
