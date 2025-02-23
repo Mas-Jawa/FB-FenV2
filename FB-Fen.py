@@ -134,9 +134,9 @@ def banner():
 [blod yellow]| | | |  \| | | | | |   |  _| |  _| | |_) |  \| |
 [blod yellow]| |_| | |\  | |_| | |___| |___| |___|  _ <| |\  |
 [bold yellow]|____/|_| \_|____/|_____|_____|_____|_| \_\_| \_|
-[blue]AUTOR : FENDI 
-[blue]VERSION : 1.0
-[blue]STATUS : PREMIUM
+[blue]AUTOR     : FENDI 
+[blue]VERSION   : 1.0
+[blue]STATUS    : PREMIUM
 [blue]INSTAGRAM : @fendipendol65                ''',width=68,title=f"[[green] FENDI GANTENG [/]]",padding=(0,2),style=f"bold green"))
 
 # PROXY SCRAPING
